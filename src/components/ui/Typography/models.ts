@@ -11,4 +11,5 @@ type TVariant =
 export interface ITypography {
   variant?: TVariant;
   children: string;
+  className?: string;
 }
